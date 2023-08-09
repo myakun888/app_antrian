@@ -1,0 +1,98 @@
+.container{
+
+    margin: auto;
+    width: 600px;
+height: 600px;
+background-color: darkgray;
+padding-top: 10px;
+
+}
+
+
+.main{
+ margin:10px auto;
+    display: flex;
+    width: 500px;
+    height: 500px;
+background-color: rgb(255, 209, 4);
+flex-wrap: wrap;
+
+align-items:center;
+justify-content:space-around;
+border-radius: 0 40px 0 40px;
+}
+
+.kotak{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed yellow;
+    background-color: rgb(111, 121, 111);
+    font-size: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+align-items: center;
+color:  rgb(255, 209, 4);
+
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: -50px;
+border-radius: 25px;}
+
+
+ 
+
+.div{
+    margin: 10px auto;
+    width: 400px;
+    height: 50px;
+  /* background-color: blue; */
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.span1{
+    font-size: 2em;
+    /* background-color: white; */
+    text-transform: capitalize;
+}
+.nomor{
+    font-size: 1.2em;
+    text-align: center;
+    width: 300px;
+   
+margin-top: 10px;
+text-transform: capitalize;
+font-weight: 800;
+background-color: white;
+
+}
+
+.tombol{
+    border: none;
+    width: 90px;
+    height: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 0 20px black;
+  transition: 0.5s;
+}
+.tombol:hover{
+    scale: 1.2;
+    background-color: black;
+    color: rgb(255, 209, 4);
+border-radius: 20px;
+}
+.teller{
+    text-align: center;
+    background-color: wheat;
+    height: 20px;
+}
+
+.cover{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: capitalize;
+}
